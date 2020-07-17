@@ -17,3 +17,15 @@ function sumar()
 	alert(`El resultado es ${resultado}`);
 }
 
+/*
+  Me ahorro una variable, en este caso "resultado."
+  function sumar()
+{   
+	var Nuno =parseInt(document.getElementById("txtIdNumeroUno").value);
+	var Ndos =parseInt (document.getElementById("txtIdNumeroDos").value);
+
+
+	alert("El resultado es " + (Nuno+Ndos));
+
+}
+  */

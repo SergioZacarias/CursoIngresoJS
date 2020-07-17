@@ -5,21 +5,37 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	alert("ok");	
+	var Nuno = parseInt(document.getElementById("txtIdNumeroUno").value);
+	var Ndos =parseInt(document.getElementById("txtIdNumeroDos").value);
+
+	alert("La suma es " + (Nuno+Ndos));	
 }
 
 function restar()
 {
+	var Nuno = parseInt(document.getElementById("txtIdNumeroUno").value);
+	var Ndos =parseInt(document.getElementById("txtIdNumeroDos").value);
+
+	alert("La resta es " + (Nuno-Ndos));	
 	
 }
 
 function multiplicar()
 { 
+	var Nuno = parseInt(document.getElementById("txtIdNumeroUno").value);
+    var Ndos =parseInt(document.getElementById("txtIdNumeroDos").value);
+
+    alert("La multiplicacion es " + (Nuno*Ndos));	
 	
 }
 
 function dividir()
 {
+	var Nuno = parseInt(document.getElementById("txtIdNumeroUno").value);
+	var Ndos =parseInt(document.getElementById("txtIdNumeroDos").value);
+
+	alert("La division es " + (Nuno/Ndos));	
+
 	
 }
 
