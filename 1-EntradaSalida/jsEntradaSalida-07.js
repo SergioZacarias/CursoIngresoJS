@@ -31,10 +31,10 @@ function multiplicar()
 
 function dividir()
 {
-	var Nuno = parseInt(document.getElementById("txtIdNumeroUno").value);
-	var Ndos =parseInt(document.getElementById("txtIdNumeroDos").value);
+	var Nuno = parseFloat(document.getElementById("txtIdNumeroUno").value);
+	var Ndos =parseFloat(document.getElementById("txtIdNumeroDos").value);
 
-	alert("La division es " + (Nuno/Ndos));	
+	alert("La division es " + (Nuno/Ndos).toFixed(2));	
 
 	
 }
