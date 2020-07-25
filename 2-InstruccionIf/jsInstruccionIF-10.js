@@ -1,25 +1,19 @@
-function mostrar()
-{
+function mostrar() {
 	let vMaximo = 10;
 	let vMinimno = 1;
 	let vNum;
 
-	vNum = Math.round( Math.random() * (vMaximo - vMinimno) + vMinimno);
+	vNum = Math.round(Math.random() * (vMaximo - vMinimno) + vMinimno);
 
-	if (vNum >= 9) 
-
-	{
-		alert (vNum + " Excelente.");
+	if (vNum >= 9) {
+		alert(vNum + " Excelente.");
 
 	}
-	else if (vNum >=4) 
+	else if (vNum >= 4) {
+		alert(vNum + " APROBÓ.");
+	}
 
-	{
-		alert (vNum +  " APROBÓ.");
-	} 
-
-	else 
-	{
+	else {
 		alert(vNum + " Vamos, la proxima se puede");
 	}
 
